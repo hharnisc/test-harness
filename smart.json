@@ -1,0 +1,16 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "blaze-refactor"
+  },
+
+  "packages": {
+    "sugar": {},
+    "test-harness": {
+      "path": "../packages-public/meteor-test-harness"
+    },
+    "ctrl": {
+      "path": "../packages-public/meteor-ctrl"
+    }
+  }
+}

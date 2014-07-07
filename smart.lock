@@ -1,0 +1,50 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "blaze-refactor",
+    "commit": "4c8223c6f48ce272dc23a928010147f91ad310b1"
+  },
+  "dependencies": {
+    "basePackages": {
+      "sugar": {},
+      "test-harness": {
+        "path": "../packages-public/meteor-test-harness"
+      },
+      "ctrl": {
+        "path": "../packages-public/meteor-ctrl"
+      }
+    },
+    "packages": {
+      "sugar": {
+        "git": "https://github.com/bevanhunt/meteor-sugar.git",
+        "tag": "v0.1.7",
+        "commit": "eef2d45055fabeb27c003f39bb36b97a361b4455"
+      },
+      "test-harness": {
+        "path": "../packages-public/meteor-test-harness"
+      },
+      "ctrl": {
+        "path": "../packages-public/meteor-ctrl"
+      },
+      "munit": {
+        "path": "../libs/meteor-munit"
+      },
+      "util": {
+        "path": "../packages-public/meteor-util"
+      },
+      "bdd-runner": {
+        "path": "../packages-public/meteor-bdd-runner"
+      },
+      "chai": {
+        "git": "https://github.com/spacejamio/meteor-chai.git",
+        "tag": "v0.1.5",
+        "commit": "9c8f1f769839c946f11f580b8c6f8601f9286a66"
+      },
+      "sinon": {
+        "git": "https://github.com/spacejamio/meteor-sinon.git",
+        "tag": "v0.1.5",
+        "commit": "5078abefbfc67a6c4c19f628ceba4249b84b4e07"
+      }
+    }
+  }
+}

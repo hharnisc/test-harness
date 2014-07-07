@@ -1,0 +1,58 @@
+<head>
+  <title>blaze</title>
+</head>
+
+
+
+
+
+<body>
+  {{> ctrl type='foo'}}
+
+  <hr>
+
+  {{> ctrl type='test-harness' }}
+
+</body>
+
+
+
+
+
+<template name="foo">
+  <div class='foo ctrl'>
+    <code>{{ title }} | {{instance}}</code>
+    <button class='btn foo'>Click</button>
+
+    {{> ctrl type='bar' id='bar1' }}
+
+    {{#if showBar}}
+      {{> ctrl type='bar' id='bar2' foo=456 }}
+    {{/if}}
+  </div>
+</template>
+
+
+
+<template name="bar">
+  <div class='ctrl'>
+    <code>{{ title }} | {{instance}}</code>
+    <button class='btn'>Click</button>
+    {{> ctrl type='baz' }}
+    {{> ctrl type='baz' }}
+  </div>
+</template>
+
+
+
+
+<template name="baz">
+  <div class='ctrl'>
+    <code>{{instance}} | Parent:{{ parentUId }}</code>
+  </div>
+</template>
+
+
+
+
+
