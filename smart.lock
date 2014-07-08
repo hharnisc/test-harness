@@ -2,7 +2,7 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "blaze-refactor",
-    "commit": "4c8223c6f48ce272dc23a928010147f91ad310b1"
+    "commit": "d8c36e46056db95efe16b3f0e8a183b513acb4fb"
   },
   "dependencies": {
     "basePackages": {
