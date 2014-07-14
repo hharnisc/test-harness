@@ -1,8 +1,8 @@
 {
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
-    "branch": "blaze-refactor",
-    "commit": "d8c36e46056db95efe16b3f0e8a183b513acb4fb"
+    "branch": "devel",
+    "commit": "57465b00c28bc78bdaac36afdd881dad252f9e16"
   },
   "dependencies": {
     "basePackages": {
@@ -12,6 +12,9 @@
       },
       "ctrl": {
         "path": "../packages-public/meteor-ctrl"
+      },
+      "stylus-compiler": {
+        "path": "../packages-public/meteor-stylus-compiler"
       }
     },
     "packages": {
@@ -26,14 +29,17 @@
       "ctrl": {
         "path": "../packages-public/meteor-ctrl"
       },
+      "stylus-compiler": {
+        "path": "../packages-public/meteor-stylus-compiler"
+      },
       "munit": {
         "path": "../libs/meteor-munit"
       },
       "util": {
         "path": "../packages-public/meteor-util"
       },
-      "bdd-runner": {
-        "path": "../packages-public/meteor-bdd-runner"
+      "bdd": {
+        "path": "../packages-public/meteor-bdd"
       },
       "chai": {
         "git": "https://github.com/spacejamio/meteor-chai.git",

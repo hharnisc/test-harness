@@ -1,7 +1,7 @@
 {
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
-    "branch": "blaze-refactor"
+    "branch": "devel"
   },
 
   "packages": {
@@ -11,6 +11,9 @@
     },
     "ctrl": {
       "path": "../packages-public/meteor-ctrl"
+    },
+    "stylus-compiler": {
+      "path": "../packages-public/meteor-stylus-compiler"
     }
   }
 }

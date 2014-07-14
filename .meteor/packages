@@ -4,8 +4,9 @@ insecure
 
 bootstrap
 coffeescript
-stylus
+
 sugar
 
-test-harness
+stylus-compiler
 ctrl
+test-harness
