@@ -12,9 +12,6 @@
       },
       "ctrl": {
         "path": "../packages-public/meteor-ctrl"
-      },
-      "stylus-compiler": {
-        "path": "../packages-public/meteor-stylus-compiler"
       }
     },
     "packages": {
@@ -29,9 +26,6 @@
       "ctrl": {
         "path": "../packages-public/meteor-ctrl"
       },
-      "stylus-compiler": {
-        "path": "../packages-public/meteor-stylus-compiler"
-      },
       "munit": {
         "path": "../libs/meteor-munit"
       },
@@ -40,6 +34,9 @@
       },
       "bdd": {
         "path": "../packages-public/meteor-bdd"
+      },
+      "stylus-compiler": {
+        "path": "../packages-public/meteor-stylus-compiler"
       },
       "chai": {
         "git": "https://github.com/spacejamio/meteor-chai.git",
