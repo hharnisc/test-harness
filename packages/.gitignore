@@ -1,5 +1,4 @@
 /sugar
-/test-harness
 /munit
 /util
 /bdd-runner
@@ -11,3 +10,4 @@
 /stylus-mixins
 /stylus-latest
 /stylus-compiler
+/ui-harness

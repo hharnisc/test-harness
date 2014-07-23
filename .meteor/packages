@@ -9,5 +9,5 @@ sugar
 
 stylus-compiler
 ctrl
-test-harness
+ui-harness
 util

@@ -2,13 +2,13 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "devel",
-    "commit": "57465b00c28bc78bdaac36afdd881dad252f9e16"
+    "commit": "e78861b7d0dbb60e5e2bf59bab2cb06ce6596c04"
   },
   "dependencies": {
     "basePackages": {
       "sugar": {},
-      "test-harness": {
-        "path": "../packages-public/meteor-test-harness"
+      "ui-harness": {
+        "path": "../packages-public/meteor-ui-harness"
       },
       "ctrl": {
         "path": "../packages-public/meteor-ctrl"
@@ -20,14 +20,16 @@
         "tag": "v0.1.7",
         "commit": "eef2d45055fabeb27c003f39bb36b97a361b4455"
       },
-      "test-harness": {
-        "path": "../packages-public/meteor-test-harness"
+      "ui-harness": {
+        "path": "../packages-public/meteor-ui-harness"
       },
       "ctrl": {
         "path": "../packages-public/meteor-ctrl"
       },
       "munit": {
-        "path": "../libs/meteor-munit"
+        "git": "https://github.com/spacejamio/meteor-munit.git",
+        "tag": "v0.2.0",
+        "commit": "9fbf742c3ea863d9d37f608d58f8fda646c01b2c"
       },
       "util": {
         "path": "../packages-public/meteor-util"

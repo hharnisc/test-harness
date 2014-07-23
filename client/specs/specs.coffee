@@ -4,16 +4,22 @@ it 'Spec', -> console.log 'does something'
 
 
 describe 'A root suite', ->
-
-  beforeEach -> @load("<h1>Hi Pete: #{ new Date() }</h1>")
+  beforeEach -> @load("<h1>Hi Harrison and Colin: #{ new Date().format() }</h1>")
 
   it 'is cool', ->
-    console.log 'do somethien with the cotnrol'
-
-
+    console.log 'do something cool'
   it 'has coffee involved', ->
   it 'has food', ->
 
+  describe 'A child suite', ->
+
+
+
+describe 'Empty', ->
+
+
+
+# ----------------------------------------------------------------------
 
 
 

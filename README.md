@@ -1,5 +1,5 @@
-# Test Harness
-The `test-harness` package running in a Meteor app.
+# UI Harness
+The `ui-harness` package running in a Meteor app.
 
 
 

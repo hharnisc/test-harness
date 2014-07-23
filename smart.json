@@ -6,8 +6,8 @@
 
   "packages": {
     "sugar": {},
-    "test-harness": {
-      "path": "../packages-public/meteor-test-harness"
+    "ui-harness": {
+      "path": "../packages-public/meteor-ui-harness"
     },
     "ctrl": {
       "path": "../packages-public/meteor-ctrl"
