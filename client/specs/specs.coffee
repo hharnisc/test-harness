@@ -23,7 +23,7 @@ describe 'Empty', ->
 
 
 
-describe 'My Ctrls', ->
+describe 'UI-Harness Ctrls', ->
   before -> console.log 'before | ROOT'
   beforeEach -> console.log '++ beforeEach'
 
